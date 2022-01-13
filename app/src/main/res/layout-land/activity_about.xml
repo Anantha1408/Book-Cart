@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@drawable/gradient_drawable">
+    <ImageView
+        android:id="@+id/about_image"
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:src="@drawable/logo14"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_image"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Developed By: Anantha Krishna and Anand Vishwanath Bhat"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Department: Computer Applications"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+
+</RelativeLayout>

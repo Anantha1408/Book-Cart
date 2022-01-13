@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:background="@drawable/gradient_drawable">
+
+    <ImageView
+        android:id="@+id/info_image"
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:src="@drawable/logo14"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_image"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="This app will help the users to know automatically when certain book has arrived once they have registered with the app. It will also help the
+users to know the latest books of their interests being introduced into the market
+like 10th,12th ,Degree, Engineering, PG Books etc."
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+
+</RelativeLayout>

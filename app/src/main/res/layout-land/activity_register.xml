@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_drawable"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/logo14" />
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_applogo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Name "
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number "
+        android:inputType="number"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_number_input"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password "
+        android:inputType="textPassword"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/buttons"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="NOTE:password must be more than 8 character with 1 upper and 1 lower english alphabet and a special character "
+        android:textAlignment="center"
+        android:textColor="@color/blue2"
+        android:layout_below="@+id/register_password_input"
+        android:textSize="13dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+
+
+</RelativeLayout>
